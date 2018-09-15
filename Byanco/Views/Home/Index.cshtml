@@ -6,9 +6,10 @@
 
 <html>
 <head>
-    
+    @Scripts.Render("~/bundles/AppScripts")
+    @Styles.Render("~/bundles/AppCSS")
 </head>
 <body>
-    ~Hello World!~
+    @RenderPage("~/Views/Canvas/Canvas.cshtml")
 </body>
 </html>

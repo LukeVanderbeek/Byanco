@@ -144,6 +144,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Libraries\jquery-3.3.1.js" />
+    <Content Include="Content\Libraries\knockout-3.4.2.js" />
+    <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\app.js" />
     <Content Include="Web.config" />
@@ -163,6 +166,7 @@
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Canvas\Canvas.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -171,7 +175,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

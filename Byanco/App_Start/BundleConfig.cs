@@ -10,8 +10,13 @@ namespace Byanco
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/MyScripts").Include(
-                "~/Scripts/app.js"         
+            bundles.Add(new ScriptBundle("~/bundles/AppScripts").Include(
+                "~/Scripts/app.js",
+                "~/Content/Libraries/*.js"
+            ));
+
+            bundles.Add(new StyleBundle("~/bundles/AppCSS").Include(
+                "~/Content/*.css"
             ));
         }
     }
