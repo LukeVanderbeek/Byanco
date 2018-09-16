@@ -11,7 +11,7 @@ namespace Byanco
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/AppScripts").Include(
-                "~/Scripts/app.js",
+                "~/Scripts/*.js",
                 "~/Content/Libraries/*.js"
             ));
 
